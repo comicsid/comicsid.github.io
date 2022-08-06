@@ -1,4 +1,10 @@
-# Getting started with Snort IDS
+---
+layout: post
+title: Getting started with Snort IDS
+categories: [Snort, IDS, IPS]
+---
+
+![Imgur](https://i.imgur.com/5hdAzLM.png)
 
 **Snort** is a free and open-source **rule-based** Network Intrusion Detection/Prevention System (**NIDS/NIPS**)
 
@@ -97,17 +103,16 @@ ipvar HOME_NET any
 #change any to your local subnet
 ```
 
-![Untitled](Getting%20started%20with%20Snort%20IDS%209cda4277a02e481aa80653fbe8d8d18c/Untitled.png)
-
+![Imgur](https://i.imgur.com/nAhmMsq.png)
 ### #7 “Customize your rule set”
 
 This section defines the snort rules that snort uses for intrusion detection and prevention. For simplicity and getting started with snort, we will not use the default community rules. Therefore, please comment out all community rules. 
 
-![Untitled](Getting%20started%20with%20Snort%20IDS%209cda4277a02e481aa80653fbe8d8d18c/Untitled%201.png)
+![Imgur](https://i.imgur.com/5lzohxg.png)
 
 Any custom rules that we want to add are saved in local rules file, which is stored under “**/etc/snort/rules/local.rules**”. In later articles we will see how to create our own snort rules.
 
-![Untitled](Getting%20started%20with%20Snort%20IDS%209cda4277a02e481aa80653fbe8d8d18c/Untitled%202.png)
+![Imgur](https://i.imgur.com/UydzMRn.png)
 
 ## Verify Configurations with Self-Test
 
@@ -120,7 +125,7 @@ sudo snort -T -c /etc/snort/snort.conf
 
 Here **"-T"** is used for testing configuration, and **"-c"** is locating the configuration file **(snort.conf)**
 
-![Untitled](Getting%20started%20with%20Snort%20IDS%209cda4277a02e481aa80653fbe8d8d18c/Untitled%203.png)
+![Imgur](https://i.imgur.com/KbZPB08.png)
 
 # Snort Modes
 
@@ -146,7 +151,7 @@ The sniffer mode allows us to capture live traffic on our network, much like **W
 | -e | Display link-layer headers. |
 | -i | Network interface. |
 
-![Untitled](Getting%20started%20with%20Snort%20IDS%209cda4277a02e481aa80653fbe8d8d18c/Untitled%204.png)
+![Imgur](https://i.imgur.com/aOQe7dr.png)
 
 # Packet Logger Mode
 
@@ -159,7 +164,7 @@ The Packet logger mode allows us to save alerts in log format, which can later b
 | -r | Read saved output. |
 | -n | Log/Process specified number of packets. |
 
-![Untitled](Getting%20started%20with%20Snort%20IDS%209cda4277a02e481aa80653fbe8d8d18c/Untitled%205.png)
+![Imgur](https://i.imgur.com/ylSjhA4.png)
 
 **Note** that default snort logs are saved in binary format, which can be exported to Wireshark, Wazuh, Splunk, etc. However, this perk is lost when saving output in **ASCII**. Thus, it is recommended that output is always stored in default format. 
 
@@ -192,7 +197,7 @@ In this article we will only cover Snort’s Intrusion Detection mode. The follo
 sudo snort -i interface -c /etc/snort/snort.conf -A console
 ```
 
-![Untitled](Getting%20started%20with%20Snort%20IDS%209cda4277a02e481aa80653fbe8d8d18c/Untitled%206.png)
+![Imgur](https://i.imgur.com/DvchoPW.png)
 
 **Note** that the alerts generated in the above screenshot will not work for you. This is a custom rule in my local files rule. 
 
