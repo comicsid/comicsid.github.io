@@ -4,9 +4,8 @@ title: Getting started with Wazuh SIEM
 categories: [Wazuh, SIEM]
 ---
 
-| ![Imgur](https://i.imgur.com/BymS6ri.png) |
-|:--:|
-| <b>WAZUH</b> |
+ ![Imgur](https://i.imgur.com/BymS6ri.png) 
+
 
 Wazuh is a free, open source and enterprise-ready security monitoring solution for threat detection, integrity monitoring, inventory management, intrusion prevention and active response. 
 <!--more-->
@@ -36,7 +35,6 @@ I deployed wazuh on wazuh cloud instance, which provides a free 14 day trial tha
 
 ![Imgur](https://i.imgur.com/hXfgzhK.png)
 
-Wazuh Cloud Deployment
 
 # Wazuh Manager
 
@@ -48,7 +46,6 @@ Wazuh GUI (Wazuh Cloud Instance)
 
 ![Imgur](https://i.imgur.com/0pfkLt5.png)
 
-Wazuh Main Menu
 
 - There are various modules for **SIEM**, **Auditing**, **Threat Detection**, **Compliance** etc.
 - Through the **Agents** options under main menu, we can deploy wazuh agents on systems we would like to monitor.
@@ -66,8 +63,7 @@ Wazuh Main Menu
 **Wazuh Agent** is a multi-platform service that runs on the host systems that the user wants to monitor through Wazuh Manger. Wazuh Agents run as **services** in both windows and linux systems. 
 
 ![Imgur](https://i.imgur.com/rhjdZGr.png)
-
-Wazuh Agents                                                                                 
+                                                                              
 
 The agents tab shows status of all available agents (whether active or disconnected) ,Details, and their evolution status. 
 
@@ -124,19 +120,16 @@ Wazuh rules can be accessed from **Wazuh Menu** under **Management Tab**.
 
 ![Imgur](https://i.imgur.com/PRFz0dv.png)
 
-Wazuh Rules
 
 The search option can be used to search for specific rules. Custom rules can be added from upper right corner. 
 
 ![Imgur](https://i.imgur.com/m1UFDfV.png)
 
-Wazuh Rules Menu
 
 Each rule is defined in a **XML** file having a unique **rule ID**. 
 
 ![Imgur](https://i.imgur.com/WbzrVDu.png)
 
-Wazuh Rules File
 
 In the Wazuh Manager and Wazuh agents, the ruleset directory is structured as follows: 
 
@@ -156,4 +149,4 @@ Since **v4.2** Wazuh is delivered with the latest ruleset on each release. Thus
 
 ---
 
-That’s it for this today. In later articles, we will use the core **WAZUH** functionalities ****for Active Response, Log Collection, Integrity Monitoring, Intrusion Prevention and more to see how robust Wazuh is in respect to **Blue Team** operations.
+That’s it for this today. In later articles, we will use the core **WAZUH** functionalities for Active Response, Log Collection, Integrity Monitoring, Intrusion Prevention and more to see how robust and powerful Wazuh is in respect to **Blue Team** operations.
