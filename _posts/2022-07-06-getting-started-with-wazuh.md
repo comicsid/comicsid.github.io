@@ -9,7 +9,7 @@ categories: [Wazuh, SIEM]
 Wazuh is a free, open source and enterprise-ready security monitoring solution for threat detection, integrity monitoring, inventory management, intrusion prevention and active response. 
 <!--more-->
 
-In the context of blue team operations, Wazuh is a **SIEM** (Security Information Event Management) system that is used to collect, analyze, aggregate, index and analyze security-related data consequently allowing you to detect intrusions, attacks, vulnerabilities, and malicious activity.
+In the context of blue team operations, Wazuh is a **SIEM** (Security Information Event Management) system that is used to collect, aggregate, index and analyze security-related data consequently allowing you to detect intrusions, attacks, vulnerabilities, and malicious activity.
 
 **Wazuh consists of the following components:**
 
@@ -37,7 +37,7 @@ I deployed wazuh on wazuh cloud instance, which provides a free 14 day trial tha
 
 # Wazuh Manager
 
-After deploying the Wazuh on Cloud (or through any preferred method), we are presented with with the **Wazuh Manager GUI**, which is built on top of the **ELK Stack**. The **Wazuh Manager** is the system that analyzes the data received from all registered systems (**Wazuh Agents**) and triggers alerts when an event coincides with a rule**.** Let’s take a look around some common features that we’ll utilize. 
+After deploying Wazuh on Cloud (or through any preferred method), we are presented with the **Wazuh Manager GUI**, which is built on top of the **ELK Stack**. The **Wazuh Manager** is the system that analyzes the data received from all registered systems (**Wazuh Agents**) and triggers alerts when an event coincides with a rule**.** Let’s take a look around some common features that we’ll utilize. 
 
 ![Imgur](https://i.imgur.com/SqzNdtU.png)
 
@@ -66,7 +66,7 @@ Wazuh GUI (Wazuh Cloud Instance)
 
 The agents tab shows status of all available agents (whether active or disconnected) ,Details, and their evolution status. 
 
-“**Deploy new agent**” section allows us to add more agents into out instance
+“**Deploy new agent**” section allows us to add more agents into our instance
 
 ![Imgur](https://i.imgur.com/aUkfhbm.png)
 
