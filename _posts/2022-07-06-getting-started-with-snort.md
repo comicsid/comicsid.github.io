@@ -5,8 +5,8 @@ categories: [Snort, IDS, IPS]
 ---
 
 ![Imgur](https://i.imgur.com/5hdAzLM.png)
-
 **Snort** is a free and open-source **rule-based** Network Intrusion Detection/Prevention System (**NIDS/NIPS**)
+<!--more-->
 
 # IDS/IPS
 
