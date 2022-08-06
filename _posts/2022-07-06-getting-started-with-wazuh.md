@@ -4,8 +4,7 @@ title: Getting started with Wazuh SIEM
 categories: [Wazuh, SIEM]
 ---
 
- ![Imgur](https://i.imgur.com/BymS6ri.png) 
-
+![Imgur](https://i.imgur.com/mtNQsQB.png)
 
 Wazuh is a free, open source and enterprise-ready security monitoring solution for threat detection, integrity monitoring, inventory management, intrusion prevention and active response. 
 <!--more-->
