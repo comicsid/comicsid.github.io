@@ -1,3 +1,9 @@
+---
+layout: post
+title: Getting started with Wazuh SIEM
+categories: [Wazuh, SIEM]
+---
+
 [Imgur](https://i.imgur.com/BymS6ri.png)
 
 Wazuh is a free, open source and enterprise-ready security monitoring solution for threat detection, integrity monitoring, inventory management, intrusion prevention and active response. 
@@ -45,7 +51,7 @@ Wazuh Main Menu
 - There are various modules for **SIEM**, **Auditing**, **Threat Detection**, **Compliance** etc.
 - Through the **Agents** options under main menu, we can deploy wazuh agents on systems we would like to monitor.
 
-[Imgur](https://i.imgur.com/mtP6UQd.png))
+[Imgur](https://i.imgur.com/mtP6UQd.png)
 
 - Configuration file is stored in **Configuration** section under **Management** tab.
 
