@@ -4,7 +4,7 @@ title: Getting started with Wazuh SIEM
 categories: [Wazuh, SIEM]
 ---
 
-[Imgur](https://i.imgur.com/BymS6ri.png)
+![Imgur](https://i.imgur.com/BymS6ri.png)
 
 Wazuh is a free, open source and enterprise-ready security monitoring solution for threat detection, integrity monitoring, inventory management, intrusion prevention and active response. 
 <!--more-->
@@ -32,7 +32,7 @@ The system requirements to deploy wazuh on local system are pretty high, so we w
 
 I deployed wazuh on wazuh cloud instance, which provides a free 14 day trial that is great for learning Wazuh and getting started (**no credit card is required**). Signup to [Wazuh Cloud](https://console.cloud.wazuh.com/sign-up?landing=trial) and use the free cloud deployment to follow along. 
 
-[Imgur](https://i.imgur.com/hXfgzhK.png)
+![Imgur](https://i.imgur.com/hXfgzhK.png)
 
 Wazuh Cloud Deployment
 
@@ -40,22 +40,22 @@ Wazuh Cloud Deployment
 
 After deploying the Wazuh on Cloud (or through any preferred method), we are presented with with the **Wazuh Manager GUI**, which is built on top of the **ELK Stack**. The **Wazuh Manager** is the system that analyzes the data received from all registered systems (**Wazuh Agents**) and triggers alerts when an event coincides with a rule**.** Let’s take a look around some common features that we’ll utilize. 
 
-[Imgur](https://i.imgur.com/SqzNdtU.png)
+![Imgur](https://i.imgur.com/SqzNdtU.png)
 
 Wazuh GUI (Wazuh Cloud Instance)
 
-[Imgur](https://i.imgur.com/0pfkLt5.png)
+![Imgur](https://i.imgur.com/0pfkLt5.png)
 
 Wazuh Main Menu
 
 - There are various modules for **SIEM**, **Auditing**, **Threat Detection**, **Compliance** etc.
 - Through the **Agents** options under main menu, we can deploy wazuh agents on systems we would like to monitor.
 
-[Imgur](https://i.imgur.com/mtP6UQd.png)
+![Imgur](https://i.imgur.com/mtP6UQd.png)
 
 - Configuration file is stored in **Configuration** section under **Management** tab.
 
-[Imgur](https://i.imgur.com/EFL5OC1.png)
+![Imgur](https://i.imgur.com/EFL5OC1.png)
 
 - Reports (if made, any) are stored in **Reporting** section under **Management** tab.
 
@@ -63,7 +63,7 @@ Wazuh Main Menu
 
 **Wazuh Agent** is a multi-platform service that runs on the host systems that the user wants to monitor through Wazuh Manger. Wazuh Agents run as **services** in both windows and linux systems. 
 
-[Imgur](https://i.imgur.com/rhjdZGr.png)
+![Imgur](https://i.imgur.com/rhjdZGr.png)
 
 Wazuh Agents                                                                                 
 
@@ -71,26 +71,26 @@ The agents tab shows status of all available agents (whether active or disconnec
 
 “**Deploy new agent**” section allows us to add more agents into out instance
 
-[Imgur](https://i.imgur.com/aUkfhbm.png)
+![Imgur](https://i.imgur.com/aUkfhbm.png)
 
 We are prompted with all necessary instructions, details, and commands to deploy new agent.
 
 Selecting an agent provides us the capability to manage and monitor security events for that system, Integrity monitoring, Auditing, Vulnerability scan etc. 
 
-[Imgur](https://i.imgur.com/uuLI6nf.png)
+![Imgur](https://i.imgur.com/uuLI6nf.png)
 
 All options have the ability to visualize produced data. 
 
-[Imgur](https://i.imgur.com/6wKeYPO.png)
+![Imgur](https://i.imgur.com/6wKeYPO.png)
 
 
 We can search based upon filters.
 
-[Imgur](https://i.imgur.com/BqPJuC4.png)
+![Imgur](https://i.imgur.com/BqPJuC4.png)
 
 We can save the report for an agent using “**Generate report**” option in the top right corner.
 
-[Imgur](https://i.imgur.com/eufxNJK.png)
+![Imgur](https://i.imgur.com/eufxNJK.png)
 
 Time taken to generate report depends upon the quantity of logs to be processed.
 
@@ -104,7 +104,7 @@ The Wazuh configuration (**ossec.conf**) file can be accessed from **Wazuh Menu 
 
 It is the global **XML** configuration file for making changes to the Wazuh Manager or Individual agents that Wazuh monitors. 
 
-[Imgur](https://i.imgur.com/FpkHDFx.png)
+![Imgur](https://i.imgur.com/FpkHDFx.png)
 
 It can be used to **enable**, **disable**, **add**, **remove** or **modify** changes pertaining to Auditing and Policy Monitoring, Incident Response, Log collection and analysis, Cloud security monitoring, etc. In addition to the global configurations, wazuh also stores configuration file in the local directories of installed wazuh agents. 
 
@@ -120,19 +120,19 @@ Currently, Wazuh supports more than 3k rules.
 
 Wazuh rules can be accessed from **Wazuh Menu** under **Management Tab**. 
 
-[Imgur](https://i.imgur.com/PRFz0dv.png)
+![Imgur](https://i.imgur.com/PRFz0dv.png)
 
 Wazuh Rules
 
 The search option can be used to search for specific rules. Custom rules can be added from upper right corner. 
 
-[Imgur](https://i.imgur.com/m1UFDfV.png)
+![Imgur](https://i.imgur.com/m1UFDfV.png)
 
 Wazuh Rules Menu
 
 Each rule is defined in a **XML** file having a unique **rule ID**. 
 
-[Imgur](https://i.imgur.com/WbzrVDu.png)
+![Imgur](https://i.imgur.com/WbzrVDu.png)
 
 Wazuh Rules File
 
